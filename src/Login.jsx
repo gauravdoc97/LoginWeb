@@ -29,7 +29,7 @@ const Common = (props) => {
   return (
     <>
      <div className="my-3">
-        <h1 className="text-center"> Login Here </h1>
+        <h1 className="text-center" > Login Here </h1>
       </div>
       <div className="container contact_div">
         <div className="row">
@@ -74,6 +74,7 @@ const Common = (props) => {
                   id="exampleFormControlInput1"
                   name="pin"
                   value={data.pin}
+                  maxLength="4"
                   onChange={InputEvent}
                   placeholder="****"
                 />
